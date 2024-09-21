@@ -1,0 +1,89 @@
+# Jobs
+# VP of Global Communications
+- position: Simpl &mdash; One Sigma Technologies
+  company: Senior Staff DevOps Engineer
+  duration: March, 2022 &mdash; June, 2024
+  summary: >
+    <ul>
+      <li>Led migration of Flink pipelines from EC2 cluster to EKS for improved efficiency & resource isolation.</li>
+      <li>Introduced IP address based whitelisting for User IAM credentials to block access from outside known networks.</li>
+      <li>Troubleshot & fixed numerous issues in infrastructure over my tenure:</li>
+        <ul>
+          <li>Built Grafana dashboards for quicker identification of issues across clusters.</li>
+          <li>Resolved critical issues in Opensearch, Dask, Jupyterhub & Concourse clusters.</li>
+          <li>Fixed dependency issues in Dask & Airflow cluster deployments, multiple times.</li>
+        </ul>
+      <li>Enhanced PostgreSQL performance:</li>
+        <ul>
+          <li>Implemented Table partitioning.</li>
+          <li>Migrated data from a very large table(3 TB in size) to new partitioned table.</li>
+          <li>Automated partition management/lifecycle with pg_partman & pg_cron.</li>
+        </ul>
+      <li>Cost Optimization & Performance:</li>
+        <ul>
+          <li>Implemented Karpenter on EKS utilizing Spot instances.</li>
+          <li>Migrated RDS PostgreSQL databases to Aurora IO‑Optimized.</li>
+          <li>Started the migration of a 6TB DynamoDB table to S3, Athena & Glue.</li>
+          <li>Implemented Blue‑Green migrations for upgrading AWS RDS engine versions.</li>
+          <li>Implemented VPC Endpoints for S3, DynamoDB to ensure security & optimize costs.</li>
+          <li>Identified & added lifecycle rule for cleanup of incomplete multipart uploads.</li>
+          <li>Migrated big‑data infrastructure to Spot instances: Dask EC2 clusters & ECS clusters.</li>
+          <li>Contributed to the setup of scalable Jupyter clusters on ECS backed by Spot instances.</li>
+        </ul>
+    </ul>
+
+
+# Director of Digital Stratgy
+- company: SRE Consultant
+  position: Ordway &mdash; Billing and Revenue Automation
+  duration:  March, 2021 &mdash; June, 2022
+  summary: >
+    <ul>
+      <li>Hardened Docker images & EC2 AMIs.</li>
+      <li>Configured auto‑scaling on EKS clusters with custom metrics.</li>
+      <li>Introduced Spot Instances for non‑prod workloads to optimize costs.</li>
+      <li>Orchestrated migration from Heroku to AWS EKS for improved scalability:</li>
+        <ul>
+          <li>performed dozens of trial migrations</li>
+          <li>identified issues in elasticsearch, database migrations & fixed them before actual migration</li>
+          <li>minimized downtime by figuring out optimal ordering of migration steps</li>
+          <li>migrated with zero critical issue</li>
+        </ul>
+    </ul>
+
+
+# Communications Coordinator
+- company: SRE Lead
+  position: Arcesium
+  duration: April, 2019  &mdash; May, 2021
+  summary: >
+    <ul>
+      <li>Led Incident Management & Root Cause Analysis.</li>
+      <li>Automated internal workflows & assisted L1 support.</li>
+    </ul>
+
+
+
+
+# Communications Coordinator
+- company: Site Reliability Engineer
+  position: Adobe
+  duration: February, 2017  &mdash; April, 2019
+  summary: >
+    <ul>
+      <li> Saved significant costs by optimizing AWS S3 storage.</li>
+      <li>Handled on‑call duties & regular SRE tasks, including automation.</li>
+      <li>Developed an internal Chaos testing service using Flask, Celery & SaltStack.</li>
+    </ul>
+
+
+# Communications Coordinator
+- company: Lead Devops
+  position: GoFro.com &mdash; Bonavita Technologies
+  duration: November 2015 &mdash; February, 2017
+  summary: >
+     <ul>
+       <li>Implemented monitoring with OMD server & check_mk.</li>
+       <li>Managed AWS & in‑house infrastructure, including deployment automation with Jenkins and SaltStack.</li>
+     </ul>
+
