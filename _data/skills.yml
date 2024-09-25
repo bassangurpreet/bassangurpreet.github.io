@@ -1,19 +1,19 @@
 # Skills
 # Organizational leadership
 - skill:     Kubernetes
-- skill:     Amazon Web Services
-- skill:     Linux System Administration
-- skill:     Python3
 - skill:     Terraform
-- skill:     Shell Scripting
-- skill:     Boto
+- skill:     Microsoft Azure
+- skill:     Python3
+- skill:     Boto3
 - skill:     Databases
 - skill:     Jenkins
-- skill:     Containers
-- skill:     AWS Glue
-- skill:     Athena
-- skill:     Autoscaling
 - skill:     High Availability
-- skill:     Cloudformation
-- skill:     Ansible
-- skill:     Microsoft Azure
+- skill:     Resilience
+- skill:     Amazon Web Services
+  description: EKS, EC2, S3, Route53, Athena, Glue, Cloudformation, RDS, Dynamodb, Load Balancers, SNS, SQS, Lambda, API Gateway, Autoscaling
+- skill:     Linux System Administration
+  description: Shell Scripting, Troubleshooting, Hardening
+- skill:     Containers
+  description: Containerd, Docker
+- skill:     Configuration Management
+  description: Ansible, Saltstack
